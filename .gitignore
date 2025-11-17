@@ -18,7 +18,7 @@ yarn-error.log
 # Playwright
 node_modules/
 /test-results/
-/playwright-report/
+# /playwright-report/  # Allow HTML reports to be pushed to GitHub
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/

@@ -9,6 +9,29 @@
   <i>TOEIC Test Registration and Management Information System for Staff, Lecturers, Alumni, and Students</i>
 </p>
 
+## 🧪 E2E Testing Results
+
+✅ **11/12 Tests Passed** (91.7% Success Rate)
+
+### Test Coverage:
+- ✅ Login Form Display
+- ✅ Valid Student Login  
+- ✅ Invalid Credentials Error
+- ✅ Password Visibility Toggle
+- ✅ Form Validation
+- ✅ Cross-browser Testing (Chrome, Firefox, Safari)
+
+### Quick Test Commands:
+```bash
+# Run login tests
+npx playwright test e2e/login.spec.js
+
+# View HTML report with beautiful UI
+npx playwright show-report
+```
+
+---
+
 ---
 
 ## 📘 Overview
